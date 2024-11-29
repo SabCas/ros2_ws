@@ -1,0 +1,5 @@
+[console_scripts]
+simple_parameter = bumperbot.simple_parameter:main
+simple_publisher = bumperbot.simple_publisher:main
+simple_subscriber = bumperbot.simple_subscriber:main
+

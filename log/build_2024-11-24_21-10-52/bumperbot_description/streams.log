@@ -1,0 +1,24 @@
+[0.368s] Invoking command in '/root/ros2_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/root/ros2_ws/install/bumperbot:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/bumperbot_description -- -j16 -l16
+[0.417s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.619s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.736s] -- Added test 'lint_cmake' to check CMake code style
+[0.739s] -- Added test 'xmllint' to check XML markup files
+[0.742s] -- Configuring done
+[0.754s] -- Generating done
+[0.757s] -- Build files have been written to: /root/ros2_ws/build/bumperbot_description
+[0.784s] Invoked command in '/root/ros2_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/bumperbot:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/bumperbot_description -- -j16 -l16
+[0.825s] Invoking command in '/root/ros2_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/root/ros2_ws/install/bumperbot:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/bumperbot_description
+[0.834s] -- Install configuration: ""
+[0.835s] -- Installing: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[0.835s] -- Installing: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[0.837s] -- Installing: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[0.903s] -- Installing: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[0.904s] -- Installing: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[0.911s] -- Installing: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[0.914s] -- Installing: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[0.916s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.916s]   file INSTALL cannot find "/root/ros2_ws/src/bumperbot_description/URDF": No
+[0.917s]   such file or directory.
+[0.917s] 
+[0.917s] [0m
+[0.920s] Invoked command in '/root/ros2_ws/build/bumperbot_description' returned '1': CMAKE_PREFIX_PATH=/root/ros2_ws/install/bumperbot:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/bumperbot_description

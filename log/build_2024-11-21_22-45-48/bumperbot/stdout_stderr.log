@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/bumperbot/bumperbot.egg-info
+writing ../../build/bumperbot/bumperbot.egg-info/PKG-INFO
+writing dependency_links to ../../build/bumperbot/bumperbot.egg-info/dependency_links.txt
+writing entry points to ../../build/bumperbot/bumperbot.egg-info/entry_points.txt
+writing requirements to ../../build/bumperbot/bumperbot.egg-info/requires.txt
+writing top-level names to ../../build/bumperbot/bumperbot.egg-info/top_level.txt
+writing manifest file '../../build/bumperbot/bumperbot.egg-info/SOURCES.txt'
+reading manifest file '../../build/bumperbot/bumperbot.egg-info/SOURCES.txt'
+writing manifest file '../../build/bumperbot/bumperbot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/bumperbot/build
+creating /root/ros2_ws/build/bumperbot/build/lib
+creating /root/ros2_ws/build/bumperbot/build/lib/bumperbot
+copying bumperbot/__init__.py -> /root/ros2_ws/build/bumperbot/build/lib/bumperbot
+running install
+running install_lib
+creating /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot
+copying /root/ros2_ws/build/bumperbot/build/lib/bumperbot/__init__.py -> /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot
+byte-compiling /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/bumperbot/share/ament_index
+creating /root/ros2_ws/install/bumperbot/share/ament_index/resource_index
+creating /root/ros2_ws/install/bumperbot/share/ament_index/resource_index/packages
+copying resource/bumperbot -> /root/ros2_ws/install/bumperbot/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/bumperbot/share/bumperbot
+running install_egg_info
+Copying ../../build/bumperbot/bumperbot.egg-info to /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_ws/build/bumperbot/install.log'
