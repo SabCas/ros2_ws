@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="bumperbot">
-    <ros2control name="RobotSystem" type="system">
+    <ros2_control name="RobotSystem" type="system">
         <xacro:if value="$(arg is_ignition)">
             <hardware>
                 <plugin>ign_ros2_control/IgnitionSystem</plugin>
@@ -30,5 +30,5 @@
             <state_interface name="position"/>
             <state_interface name="velocity"/>
         </joint>
-    </ros2control>
+    </ros2_control>
 </robot>
