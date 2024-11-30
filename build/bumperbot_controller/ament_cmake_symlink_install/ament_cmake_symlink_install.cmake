@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "config" "DESTINATION" "share/bumperbot_controller")
-ament_cmake_symlink_install_directory("/root/ros2_ws/src/bumperbot_controller" DIRECTORY "config" "DESTINATION" "share/bumperbot_controller")
+# install(DIRECTORY "config" "launch" "DESTINATION" "share/bumperbot_controller")
+ament_cmake_symlink_install_directory("/root/ros2_ws/src/bumperbot_controller" DIRECTORY "config" "launch" "DESTINATION" "share/bumperbot_controller")
 
 # install(FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/root/ros2_ws/src/bumperbot_controller" FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
