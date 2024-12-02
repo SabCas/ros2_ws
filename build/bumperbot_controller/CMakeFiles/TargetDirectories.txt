@@ -1,5 +1,7 @@
 /root/ros2_ws/build/bumperbot_controller/CMakeFiles/uninstall.dir
 /root/ros2_ws/build/bumperbot_controller/CMakeFiles/bumperbot_controller_uninstall.dir
+/root/ros2_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_symlink_bumperbot_controller.dir
+/root/ros2_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir
 /root/ros2_ws/build/bumperbot_controller/CMakeFiles/test.dir
 /root/ros2_ws/build/bumperbot_controller/CMakeFiles/edit_cache.dir
 /root/ros2_ws/build/bumperbot_controller/CMakeFiles/rebuild_cache.dir

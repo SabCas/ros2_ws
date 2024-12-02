@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000951] (bumperbot) JobQueued: {'identifier': 'bumperbot', 'dependencies': OrderedDict()}
+[0.001085] (bumperbot_controller) JobQueued: {'identifier': 'bumperbot_controller', 'dependencies': OrderedDict()}
+[0.001993] (bumperbot_description) JobQueued: {'identifier': 'bumperbot_description', 'dependencies': OrderedDict()}
+[0.002333] (bumperbot) JobStarted: {'identifier': 'bumperbot'}
+[0.021475] (bumperbot_controller) JobStarted: {'identifier': 'bumperbot_controller'}
+[0.029829] (bumperbot_description) JobStarted: {'identifier': 'bumperbot_description'}
+[0.099309] (-) TimerEvent: {}
+[0.199822] (-) TimerEvent: {}
+[0.300451] (-) TimerEvent: {}
+[0.401039] (-) TimerEvent: {}
+[0.501797] (-) TimerEvent: {}
+[0.517912] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'cmake'}
+[0.519113] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'build'}
+[0.521594] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/bumperbot_controller', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/bumperbot_controller', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,56,2'), ('HOSTNAME', '4a83d0736232'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/ros2_ws/build/bumperbot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%7'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.538266] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'cmake'}
+[0.539308] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'build'}
+[0.539468] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/bumperbot_description', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/bumperbot_description', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,56,2'), ('HOSTNAME', '4a83d0736232'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/ros2_ws/build/bumperbot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%7'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.582265] (bumperbot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601978] (-) TimerEvent: {}
+[0.618978] (bumperbot_description) CommandEnded: {'returncode': 0}
+[0.663741] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'install'}
+[0.678691] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/bumperbot_description'], 'cwd': '/root/ros2_ws/build/bumperbot_description', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,56,2'), ('HOSTNAME', '4a83d0736232'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/ros2_ws/build/bumperbot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%7'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.693076] (bumperbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.694310] (bumperbot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.695405] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL\n'}
+[0.695792] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL\n'}
+[0.696378] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL\n'}
+[0.696736] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL\n'}
+[0.697179] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL\n'}
+[0.697709] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL\n'}
+[0.697882] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro\n'}
+[0.698315] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro\n'}
+[0.698453] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro\n'}
+[0.698743] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py\n'}
+[0.699057] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py\n'}
+[0.699497] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz\n'}
+[0.700038] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description\n'}
+[0.700379] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description\n'}
+[0.700768] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh\n'}
+[0.701107] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv\n'}
+[0.701493] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh\n'}
+[0.701874] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv\n'}
+[0.702022] (-) TimerEvent: {}
+[0.702388] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash\n'}
+[0.702821] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh\n'}
+[0.703221] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh\n'}
+[0.703503] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv\n'}
+[0.703882] (bumperbot_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/package.dsv\n'}
+[0.719199] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description\n'}
+[0.719738] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake\n'}
+[0.720141] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake\n'}
+[0.720770] (bumperbot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_description/share/bumperbot_description/package.xml\n'}
+[0.724807] (bumperbot_description) CommandEnded: {'returncode': 0}
+[0.800766] (bumperbot_description) JobEnded: {'identifier': 'bumperbot_description', 'rc': 0}
+[0.802161] (-) TimerEvent: {}
+[0.840350] (bumperbot_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.902323] (-) TimerEvent: {}
+[0.924801] (bumperbot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.002550] (-) TimerEvent: {}
+[1.103135] (-) TimerEvent: {}
+[1.117842] (bumperbot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.137378] (bumperbot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.169526] (bumperbot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.203358] (-) TimerEvent: {}
+[1.219792] (bumperbot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bumperbot', 'build', '--build-base', '/root/ros2_ws/build/bumperbot/build', 'install', '--record', '/root/ros2_ws/build/bumperbot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/bumperbot', 'env': {'TMUX': '/tmp/tmux-0/default,56,2', 'HOSTNAME': '4a83d0736232', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/root/ros2_ws/build/bumperbot', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/bumperbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/bumperbot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%7'}, 'shell': False}
+[1.223464] (bumperbot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.272254] (bumperbot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.303554] (-) TimerEvent: {}
+[1.404073] (-) TimerEvent: {}
+[1.421405] (bumperbot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.434346] (bumperbot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.504264] (-) TimerEvent: {}
+[1.604851] (-) TimerEvent: {}
+[1.705437] (-) TimerEvent: {}
+[1.710134] (bumperbot) StdoutLine: {'line': b'running egg_info\n'}
+[1.711811] (bumperbot) StdoutLine: {'line': b'writing ../../build/bumperbot/bumperbot.egg-info/PKG-INFO\n'}
+[1.712404] (bumperbot) StdoutLine: {'line': b'writing dependency_links to ../../build/bumperbot/bumperbot.egg-info/dependency_links.txt\n'}
+[1.712976] (bumperbot) StdoutLine: {'line': b'writing entry points to ../../build/bumperbot/bumperbot.egg-info/entry_points.txt\n'}
+[1.713499] (bumperbot) StdoutLine: {'line': b'writing requirements to ../../build/bumperbot/bumperbot.egg-info/requires.txt\n'}
+[1.714058] (bumperbot) StdoutLine: {'line': b'writing top-level names to ../../build/bumperbot/bumperbot.egg-info/top_level.txt\n'}
+[1.717630] (bumperbot_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.718482] (bumperbot) StdoutLine: {'line': b"reading manifest file '../../build/bumperbot/bumperbot.egg-info/SOURCES.txt'\n"}
+[1.721012] (bumperbot) StdoutLine: {'line': b"writing manifest file '../../build/bumperbot/bumperbot.egg-info/SOURCES.txt'\n"}
+[1.721467] (bumperbot) StdoutLine: {'line': b'running build\n'}
+[1.721886] (bumperbot) StdoutLine: {'line': b'running build_py\n'}
+[1.723205] (bumperbot) StdoutLine: {'line': b'running install\n'}
+[1.724078] (bumperbot) StdoutLine: {'line': b'running install_lib\n'}
+[1.727438] (bumperbot) StdoutLine: {'line': b'running install_data\n'}
+[1.727997] (bumperbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.732881] (bumperbot) StdoutLine: {'line': b"removing '/root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.736425] (bumperbot) StdoutLine: {'line': b'Copying ../../build/bumperbot/bumperbot.egg-info to /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot-0.0.0-py3.10.egg-info\n'}
+[1.742299] (bumperbot) StdoutLine: {'line': b'running install_scripts\n'}
+[1.790595] (bumperbot) StdoutLine: {'line': b'Installing simple_parameter script to /root/ros2_ws/install/bumperbot/lib/bumperbot\n'}
+[1.791534] (bumperbot) StdoutLine: {'line': b'Installing simple_publisher script to /root/ros2_ws/install/bumperbot/lib/bumperbot\n'}
+[1.792542] (bumperbot) StdoutLine: {'line': b'Installing simple_subscriber script to /root/ros2_ws/install/bumperbot/lib/bumperbot\n'}
+[1.793035] (bumperbot) StdoutLine: {'line': b'Installing simple_turtlesim_kinematics script to /root/ros2_ws/install/bumperbot/lib/bumperbot\n'}
+[1.793559] (bumperbot) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/bumperbot/install.log'\n"}
+[1.805690] (-) TimerEvent: {}
+[1.809430] (bumperbot_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.875204] (bumperbot) CommandEnded: {'returncode': 0}
+[1.903787] (bumperbot) JobEnded: {'identifier': 'bumperbot', 'rc': 0}
+[1.905985] (-) TimerEvent: {}
+[1.990108] (bumperbot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.006360] (-) TimerEvent: {}
+[2.056949] (bumperbot_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.106652] (-) TimerEvent: {}
+[2.207521] (-) TimerEvent: {}
+[2.308228] (-) TimerEvent: {}
+[2.364154] (bumperbot_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.365261] (bumperbot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.408583] (-) TimerEvent: {}
+[2.509422] (-) TimerEvent: {}
+[2.520052] (bumperbot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.521852] (bumperbot_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.609590] (-) TimerEvent: {}
+[2.682074] (bumperbot_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.709784] (-) TimerEvent: {}
+[2.810259] (-) TimerEvent: {}
+[2.910315] (bumperbot_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.910732] (-) TimerEvent: {}
+[3.011108] (-) TimerEvent: {}
+[3.062011] (bumperbot_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.063412] (bumperbot_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.064433] (bumperbot_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.067353] (bumperbot_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.071364] (bumperbot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.100470] (bumperbot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[3.106262] (bumperbot_controller) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/bumperbot_controller\n'}
+[3.111250] (-) TimerEvent: {}
+[3.188506] (bumperbot_controller) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_bumperbot_controller\n'}
+[3.211454] (-) TimerEvent: {}
+[3.311973] (-) TimerEvent: {}
+[3.412556] (-) TimerEvent: {}
+[3.513088] (-) TimerEvent: {}
+[3.613567] (-) TimerEvent: {}
+[3.693043] (bumperbot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.693994] (bumperbot_controller) StdoutLine: {'line': b'creating bumperbot_controller.egg-info\n'}
+[3.695113] (bumperbot_controller) StdoutLine: {'line': b'writing bumperbot_controller.egg-info/PKG-INFO\n'}
+[3.695627] (bumperbot_controller) StdoutLine: {'line': b'writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt\n'}
+[3.696320] (bumperbot_controller) StdoutLine: {'line': b'writing top-level names to bumperbot_controller.egg-info/top_level.txt\n'}
+[3.696874] (bumperbot_controller) StdoutLine: {'line': b"writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'\n"}
+[3.701089] (bumperbot_controller) StdoutLine: {'line': b"reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'\n"}
+[3.702335] (bumperbot_controller) StdoutLine: {'line': b"writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'\n"}
+[3.713824] (-) TimerEvent: {}
+[3.745511] (bumperbot_controller) StdoutLine: {'line': b'Built target ament_cmake_python_build_bumperbot_controller_egg\n'}
+[3.768113] (bumperbot_controller) CommandEnded: {'returncode': 0}
+[3.814023] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'install'}
+[3.814214] (-) TimerEvent: {}
+[3.816584] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/bumperbot_controller'], 'cwd': '/root/ros2_ws/build/bumperbot_controller', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,56,2'), ('HOSTNAME', '4a83d0736232'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/root/ros2_ws/build/bumperbot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%7'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.830966] (bumperbot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.831954] (bumperbot_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.832413] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh\n'}
+[3.848859] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv\n'}
+[3.868300] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.883045] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.897798] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.912184] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.914376] (-) TimerEvent: {}
+[3.933133] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py\n'}
+[3.948767] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py\n'}
+[3.966534] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controller.yaml\n'}
+[3.967006] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/launch/contoller.launch.py\n'}
+[3.969328] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py\n'}
+[3.985128] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller\n'}
+[3.985752] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller\n'}
+[3.986262] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh\n'}
+[3.986646] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv\n'}
+[3.987045] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh\n'}
+[3.987448] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv\n'}
+[3.987891] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash\n'}
+[3.988231] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh\n'}
+[3.988630] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh\n'}
+[3.989010] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv\n'}
+[3.989503] (bumperbot_controller) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv\n'}
+[4.007449] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller\n'}
+[4.007883] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake\n'}
+[4.008163] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake\n'}
+[4.008587] (bumperbot_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml\n'}
+[4.014517] (-) TimerEvent: {}
+[4.069726] (bumperbot_controller) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...\n"}
+[4.070132] (bumperbot_controller) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...\n"}
+[4.070373] (bumperbot_controller) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...\n"}
+[4.083279] (bumperbot_controller) CommandEnded: {'returncode': 0}
+[4.114735] (-) TimerEvent: {}
+[4.155510] (bumperbot_controller) JobEnded: {'identifier': 'bumperbot_controller', 'rc': 0}
+[4.158277] (-) EventReactorShutdown: {}

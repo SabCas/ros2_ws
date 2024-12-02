@@ -23,6 +23,7 @@ setup(
             'simple_publisher = bumperbot.simple_publisher:main',
             'simple_subscriber = bumperbot.simple_subscriber:main',
             'simple_parameter = bumperbot.simple_parameter:main',
+            'simple_turtlesim_kinematics = bumperbot.simple_turtlesim_kinematics:main',
         ],
     },
 )

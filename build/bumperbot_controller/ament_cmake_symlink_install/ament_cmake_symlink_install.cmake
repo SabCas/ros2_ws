@@ -310,8 +310,23 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/bumperbot_controller/environment")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/bumperbot_controller" FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/bumperbot_controller/environment")
+
+# install(FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/bumperbot_controller/environment")
+ament_cmake_symlink_install_files("/root/ros2_ws/src/bumperbot_controller" FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/bumperbot_controller/environment")
+
+# install(DIRECTORY "/root/ros2_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/root/ros2_ws/src/bumperbot_controller" DIRECTORY "/root/ros2_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info")
+
+# install(DIRECTORY "/root/ros2_ws/src/bumperbot_controller/bumperbot_controller/" "DESTINATION" "local/lib/python3.10/dist-packages/bumperbot_controller" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/root/ros2_ws/src/bumperbot_controller" DIRECTORY "/root/ros2_ws/src/bumperbot_controller/bumperbot_controller/" "DESTINATION" "local/lib/python3.10/dist-packages/bumperbot_controller" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/bumperbot_controller")
 ament_cmake_symlink_install_directory("/root/ros2_ws/src/bumperbot_controller" DIRECTORY "config" "launch" "DESTINATION" "share/bumperbot_controller")
+
+# install(PROGRAMS "bumperbot_controller/simple_controller.py" "DESTINATION" "lib/bumperbot_controller")
+ament_cmake_symlink_install_programs("/root/ros2_ws/src/bumperbot_controller" PROGRAMS "bumperbot_controller/simple_controller.py" "DESTINATION" "lib/bumperbot_controller")
 
 # install(FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/root/ros2_ws/src/bumperbot_controller" FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

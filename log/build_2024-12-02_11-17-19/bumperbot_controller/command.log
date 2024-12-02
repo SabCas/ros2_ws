@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/bumperbot_controller': /usr/bin/cmake --build /root/ros2_ws/build/bumperbot_controller -- -j16 -l16
+Invoked command in '/root/ros2_ws/build/bumperbot_controller' returned '2': /usr/bin/cmake --build /root/ros2_ws/build/bumperbot_controller -- -j16 -l16

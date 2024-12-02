@@ -12,6 +12,7 @@ bumperbot/__init__.py
 bumperbot/simple_parameter.py
 bumperbot/simple_publisher.py
 bumperbot/simple_subscriber.py
+bumperbot/simple_turtlesim_kinematics.py
 resource/bumperbot
 test/test_copyright.py
 test/test_flake8.py
