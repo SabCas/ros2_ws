@@ -1,0 +1,42 @@
+[1.012s] Invoking command in '/root/ros2_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/bumperbot_controller -- -j16 -l16
+[1.221s] Built target ament_cmake_python_symlink_bumperbot_controller
+[2.331s] running egg_info
+[2.335s] writing bumperbot_controller.egg-info/PKG-INFO
+[2.336s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[2.337s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[2.348s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.351s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[2.526s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.570s] Invoked command in '/root/ros2_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/bumperbot_controller -- -j16 -l16
+[2.664s] Invoking command in '/root/ros2_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/bumperbot_controller
+[2.688s] -- Install configuration: ""
+[2.690s] -- Execute custom install script
+[2.691s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[2.692s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[2.694s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[2.695s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.713s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.714s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[2.715s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[2.715s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[2.716s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controller.yaml
+[2.717s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/launch/contoller.launch.py
+[2.717s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[2.718s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[2.718s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[2.719s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[2.719s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[2.720s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[2.720s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[2.720s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[2.721s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[2.721s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[2.722s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[2.723s] -- Symlinking: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[2.756s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[2.758s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[2.759s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[2.760s] -- Up-to-date symlink: /root/ros2_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[2.914s] Listing '/root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[2.915s] Compiling '/root/ros2_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[2.940s] Invoked command in '/root/ros2_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/bumperbot_controller

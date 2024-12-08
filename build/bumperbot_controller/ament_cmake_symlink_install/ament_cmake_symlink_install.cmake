@@ -325,9 +325,6 @@ ament_cmake_symlink_install_directory("/root/ros2_ws/src/bumperbot_controller" D
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/bumperbot_controller")
 ament_cmake_symlink_install_directory("/root/ros2_ws/src/bumperbot_controller" DIRECTORY "config" "launch" "DESTINATION" "share/bumperbot_controller")
 
-# install(PROGRAMS "bumperbot_controller/simple_controller.py" "DESTINATION" "lib/bumperbot_controller")
-ament_cmake_symlink_install_programs("/root/ros2_ws/src/bumperbot_controller" PROGRAMS "bumperbot_controller/simple_controller.py" "DESTINATION" "lib/bumperbot_controller")
-
 # install(FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/root/ros2_ws/src/bumperbot_controller" FILES "/root/ros2_ws/build/bumperbot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

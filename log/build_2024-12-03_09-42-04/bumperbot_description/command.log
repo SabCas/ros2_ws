@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/bumperbot_description': /usr/bin/cmake /root/ros2_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/bumperbot_description
+Invoked command in '/root/ros2_ws/build/bumperbot_description' returned '1': /usr/bin/cmake /root/ros2_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/bumperbot_description

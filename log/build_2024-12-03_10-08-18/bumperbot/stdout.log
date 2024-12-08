@@ -1,0 +1,36 @@
+running develop
+Removing /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot.egg-link (link to .)
+running egg_info
+writing ../../build/bumperbot/bumperbot.egg-info/PKG-INFO
+writing dependency_links to ../../build/bumperbot/bumperbot.egg-info/dependency_links.txt
+writing entry points to ../../build/bumperbot/bumperbot.egg-info/entry_points.txt
+writing requirements to ../../build/bumperbot/bumperbot.egg-info/requires.txt
+writing top-level names to ../../build/bumperbot/bumperbot.egg-info/top_level.txt
+reading manifest file '../../build/bumperbot/bumperbot.egg-info/SOURCES.txt'
+writing manifest file '../../build/bumperbot/bumperbot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot
+copying /root/ros2_ws/build/bumperbot/build/lib/bumperbot/simple_subscriber.py -> /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot
+copying /root/ros2_ws/build/bumperbot/build/lib/bumperbot/simple_publisher.py -> /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot
+copying /root/ros2_ws/build/bumperbot/build/lib/bumperbot/__init__.py -> /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot
+copying /root/ros2_ws/build/bumperbot/build/lib/bumperbot/simple_parameter.py -> /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot
+copying /root/ros2_ws/build/bumperbot/build/lib/bumperbot/simple_turtlesim_kinematics.py -> /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot
+byte-compiling /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot/simple_publisher.py to simple_publisher.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot/simple_parameter.py to simple_parameter.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot/simple_turtlesim_kinematics.py to simple_turtlesim_kinematics.cpython-310.pyc
+running install_data
+copying resource/bumperbot -> /root/ros2_ws/install/bumperbot/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/bumperbot/share/bumperbot
+running install_egg_info
+Copying ../../build/bumperbot/bumperbot.egg-info to /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simple_parameter script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+Installing simple_publisher script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+Installing simple_subscriber script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+Installing simple_turtlesim_kinematics script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+writing list of installed files to '/root/ros2_ws/build/bumperbot/install.log'

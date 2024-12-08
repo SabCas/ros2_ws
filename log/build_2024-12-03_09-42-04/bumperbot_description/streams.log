@@ -1,0 +1,21 @@
+[0.851s] Invoking command in '/root/ros2_ws/build/bumperbot_description': /usr/bin/cmake /root/ros2_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/bumperbot_description
+[0.883s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.192s] Traceback (most recent call last):
+[1.192s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.192s]     from ament_package.templates import get_environment_hook_template_path
+[1.193s] ModuleNotFoundError: No module named 'ament_package'
+[1.208s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.208s]   execute_process(/usr/bin/python3
+[1.209s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.209s]   /root/ros2_ws/build/bumperbot_description/ament_cmake_package_templates/templates.cmake)
+[1.209s]   returned error code 1
+[1.210s] Call Stack (most recent call first):
+[1.210s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.210s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.210s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.211s]   CMakeLists.txt:9 (find_package)
+[1.211s] 
+[1.211s] [0m
+[1.212s] -- Configuring incomplete, errors occurred!
+[1.213s] See also "/root/ros2_ws/build/bumperbot_description/CMakeFiles/CMakeOutput.log".
+[1.229s] Invoked command in '/root/ros2_ws/build/bumperbot_description' returned '1': /usr/bin/cmake /root/ros2_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/bumperbot_description

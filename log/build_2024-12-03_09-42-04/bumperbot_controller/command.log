@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/bumperbot_controller': /usr/bin/cmake /root/ros2_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/bumperbot_controller
+Invoked command in '/root/ros2_ws/build/bumperbot_controller' returned '1': /usr/bin/cmake /root/ros2_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/bumperbot_controller

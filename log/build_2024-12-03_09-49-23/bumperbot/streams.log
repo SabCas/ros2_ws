@@ -1,0 +1,22 @@
+[2.207s] Invoking command in '/root/ros2_ws/build/bumperbot': PYTHONPATH=/root/ros2_ws/build/bumperbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/bumperbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/bumperbot/build --no-deps symlink_data
+[3.191s] running develop
+[3.192s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.192s]   warnings.warn(
+[3.664s] running egg_info
+[3.667s] writing bumperbot.egg-info/PKG-INFO
+[3.669s] writing dependency_links to bumperbot.egg-info/dependency_links.txt
+[3.670s] writing entry points to bumperbot.egg-info/entry_points.txt
+[3.671s] writing requirements to bumperbot.egg-info/requires.txt
+[3.672s] writing top-level names to bumperbot.egg-info/top_level.txt
+[3.683s] reading manifest file 'bumperbot.egg-info/SOURCES.txt'
+[3.690s] writing manifest file 'bumperbot.egg-info/SOURCES.txt'
+[3.700s] running build_ext
+[3.702s] Creating /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot.egg-link (link to .)
+[3.709s] Installing simple_parameter script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+[3.712s] Installing simple_publisher script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+[3.713s] Installing simple_subscriber script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+[3.713s] Installing simple_turtlesim_kinematics script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+[3.714s] 
+[3.714s] Installed /root/ros2_ws/build/bumperbot
+[3.714s] running symlink_data
+[3.815s] Invoked command in '/root/ros2_ws/build/bumperbot' returned '0': PYTHONPATH=/root/ros2_ws/build/bumperbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/bumperbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/bumperbot/build --no-deps symlink_data

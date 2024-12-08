@@ -1,0 +1,24 @@
+[2.499s] Invoking command in '/root/ros2_ws/src/bumperbot': PYTHONPATH=/root/ros2_ws/build/bumperbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/bumperbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot build --build-base /root/ros2_ws/build/bumperbot/build install --record /root/ros2_ws/build/bumperbot/install.log --single-version-externally-managed install_data
+[3.732s] running egg_info
+[3.735s] writing ../../build/bumperbot/bumperbot.egg-info/PKG-INFO
+[3.736s] writing dependency_links to ../../build/bumperbot/bumperbot.egg-info/dependency_links.txt
+[3.737s] writing entry points to ../../build/bumperbot/bumperbot.egg-info/entry_points.txt
+[3.738s] writing requirements to ../../build/bumperbot/bumperbot.egg-info/requires.txt
+[3.739s] writing top-level names to ../../build/bumperbot/bumperbot.egg-info/top_level.txt
+[3.747s] reading manifest file '../../build/bumperbot/bumperbot.egg-info/SOURCES.txt'
+[3.751s] writing manifest file '../../build/bumperbot/bumperbot.egg-info/SOURCES.txt'
+[3.752s] running build
+[3.752s] running build_py
+[3.754s] running install
+[3.755s] running install_lib
+[3.760s] running install_data
+[3.760s] running install_egg_info
+[3.766s] removing '/root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot-0.0.0-py3.10.egg-info' (and everything under it)
+[3.769s] Copying ../../build/bumperbot/bumperbot.egg-info to /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot-0.0.0-py3.10.egg-info
+[3.775s] running install_scripts
+[3.860s] Installing simple_parameter script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+[3.861s] Installing simple_publisher script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+[3.862s] Installing simple_subscriber script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+[3.863s] Installing simple_turtlesim_kinematics script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+[3.863s] writing list of installed files to '/root/ros2_ws/build/bumperbot/install.log'
+[3.940s] Invoked command in '/root/ros2_ws/src/bumperbot' returned '0': PYTHONPATH=/root/ros2_ws/build/bumperbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/bumperbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot build --build-base /root/ros2_ws/build/bumperbot/build install --record /root/ros2_ws/build/bumperbot/install.log --single-version-externally-managed install_data

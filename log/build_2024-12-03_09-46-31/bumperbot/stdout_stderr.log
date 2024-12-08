@@ -1,0 +1,22 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing bumperbot.egg-info/PKG-INFO
+writing dependency_links to bumperbot.egg-info/dependency_links.txt
+writing entry points to bumperbot.egg-info/entry_points.txt
+writing requirements to bumperbot.egg-info/requires.txt
+writing top-level names to bumperbot.egg-info/top_level.txt
+reading manifest file 'bumperbot.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_ws/install/bumperbot/lib/python3.10/site-packages/bumperbot.egg-link (link to .)
+Installing simple_parameter script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+Installing simple_publisher script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+Installing simple_subscriber script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+Installing simple_turtlesim_kinematics script to /root/ros2_ws/install/bumperbot/lib/bumperbot
+
+Installed /root/ros2_ws/build/bumperbot
+running symlink_data
+symbolically linking /root/ros2_ws/build/bumperbot/resource/bumperbot -> /root/ros2_ws/install/bumperbot/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_ws/build/bumperbot/package.xml -> /root/ros2_ws/install/bumperbot/share/bumperbot
